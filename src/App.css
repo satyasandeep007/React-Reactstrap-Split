@@ -1,5 +1,7 @@
 .App {
   text-align:left ;
+  flex-wrap: wrap;
+  
 }
 
 .but {
@@ -7,50 +9,38 @@
   
 }
 
-
-
-
-
-.leftside, .rightside {
-
-	height:50vh;
-	width:100%;
-	color:#fff;
-	font-size:40px;
-
+Input[type=email] ,Input[type=password] {
+	background-color: #d9ffb3;
 }
 
-
-
+.leftside, .rightside {
+	height:50vh;
+	width:100%;
+	margin-top: 0%;
+	font-size:40px;
+}
+#exampleEmail{
+	width: 400px;
+}
 @media screen and (min-width:768px)
 {
-
 	.leftside, .rightside{
-
 		height:100vh;
 	}
-
-
 }
 @media screen and (max-width:768px)
 {
-
 	.leftside, .rightside{
-
 		height:100vh;
 	}
-
-
 }
-
-
-
-
 .leftside {
 	background:#012060;
+	color: #fff;
+	margin-top: 0%;
 }
-
-
 .rightside {
-	background:grey;
+	background:#fff;
+	color: #012060;
+	margin-top: 0%;
 }
