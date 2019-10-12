@@ -10,15 +10,16 @@ export default class Home extends Component {
             <div className="leftside d-flex justify-content-center align-items-center">
               <div>
                 <div className="search">
-                <br></br>
+                
                   <h3>For Buyers</h3>
                   <br></br>
                   <h1>
                     Google for <br></br>suppliers
                   </h1>
                   <br></br>
-                  <h5>Search by company name,category,products or services</h5>
-                  <br></br>
+                  <h6>Search by company name,category,products
+                      or services</h6>
+                  
                   <Form>
                     <FormGroup>
                       <Input
@@ -30,7 +31,7 @@ export default class Home extends Component {
                       />
                     </FormGroup>
                     <div className="but">
-                  <Button color="success" style={{borderRadius: "35px"}}>Search</Button>
+                  <Button color="success" style={{borderRadius: "35px", width:"120px"}}>Search</Button>
                   </div>
                  
                   </Form>
@@ -52,7 +53,7 @@ export default class Home extends Component {
                 <Form>
                   <FormGroup>
                     <Input
-                      type=""
+                      type="email"
                       name="companyname"
                       id="exampleEmail"
                       placeholder="Company name"
@@ -75,9 +76,8 @@ export default class Home extends Component {
                     />
                   </FormGroup>
                   <div className="but">
-                  <Button color="success" style={{borderRadius: "35px"}}>Register</Button>
+                  <Button color="success" style={{borderRadius: "35px", width:"120px"}}>Register</Button>
                   </div>
-                 
                 </Form>
               </div>
             </div>
